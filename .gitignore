@@ -1,0 +1,71 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Python testing and linting
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment and secrets
+.env
+!.env.example
+
+# Local data and vector stores (RAG system)
+data/uploads/*
+data/chroma/*
+!data/uploads/.gitkeep
+!data/chroma/.gitkeep
+
+# Streamlit cache
+.streamlit/
+.streamlit_cache/
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+.jupyter/
+
+# Database files (SQLite, etc.)
+*.db
+*.sqlite
+*.sqlite3
+
+# ML/Data serialization (PyTorch models, pickled data)
+*.pkl
+*.pickle
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Logs
+*.log
+*.log.*
